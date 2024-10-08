@@ -1,13 +1,20 @@
-# Drag and Drop Images
+# JupyterNotebook Image Editor
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/TDR474/drag-and-drop-images)
 
-Easily upload, manage, and insert images into your Jupyter Notebooks with intuitive drag-and-drop functionality. Streamline your workflow by handling image uploads directly within VS Code, ensuring organized and unique image storage.
+Easily **insert**, **manage**, **edit**, and **crop** images into your Jupyter Notebooks with intuitive drag-and-drop functionality. Streamline your workflow by handling image uploads directly within VS Code, for organized and unique image processing.
+
+<div style="text-align: center;">
+    <img src="images/try2.jpg" alt="Screenshot" width="400" style="border-radius: 8px;">
+</div>
+
 
 ## Features
 
 - **Seamless Image Upload:** Drag and drop images directly into your Jupyter Notebook cells.
+- **Image Resizing & Cropping:** Adjust image dimensions with auto-resize or custom width and height options.
+- **Add a Title:** Automatically generate a centered image title below the image.
 - **Automatic Filename Management:** Prevents overwriting by appending incremental suffixes to duplicate filenames (e.g., `image.png`, `image_1.png`, `image_2.png`, etc.).
-- **Image Resizing:** Adjust image dimensions with auto-resize or custom width and height options.
 - **Styling Options:** Center images and apply rounded corners to enhance the visual presentation.
 - **Integrated Status Bar Controls:** Convenient buttons in the notebook cell's status bar for uploading and resizing images.
 - **Real-time Preview:** Preview images before inserting them into your notebook.
@@ -24,15 +31,22 @@ Easily upload, manage, and insert images into your Jupyter Notebooks with intuit
 
 This extension does not introduce any additional settings. All configurations are handled within the image upload and resizing process.
 
+## Demo
+<div style="text-align: center;">
+    <img src="images/demo.gif" alt="Drag and Drop Demo" style="width: auto; border-radius: 8px;">
+</div>
+
 ## Known Issues
 
 - **Large Image Files:** Uploading extremely large image files may cause performance issues. It's recommended to optimize images before uploading.
-- **Unsupported Formats:** Only JPG and PNG formats are supported. Other image formats may not work as expected.
-- **File Path Length:** Very long file paths can lead to insertion issues. Keep image paths concise to ensure smooth operations.
 
-If you encounter any other issues, please [open an issue](https://github.com/your-publisher-name/drag-and-drop-images/issues) on GitHub.
+If you encounter any other issues, please [open an issue](https://github.com/TDR474/drag-and-drop-images/issues) on GitHub.
 
 ## Release Notes
+
+### 1.1.0
+- Added Cropping functionality
+- Open once, insert anywhere: The image will be inserted to last selected cell, regardless where launch the editor
 
 ### 1.0.0
 
